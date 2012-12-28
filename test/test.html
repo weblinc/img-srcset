@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" href="media.css" />
+        <link type="text/css" rel="stylesheet" href="../media-match/media.css" />
         <script type="text/javascript" src="lib/JSLitmus.js"></script>
-        <script type="text/javascript" src="media.min.js"></script>
-        <script type="text/javascript" src="img.srcset.js"></script>
+        <script type="text/javascript" src="../media-match/media.min.js"></script>
+        <script type="text/javascript" src="../img.srcset.min.js"></script>
     </head>
     <body>
         <img srcset="lib/Koala_low.jpg 400w 1x, lib/Koala_medium.jpg 750w 1x, lib/Koala_high.jpg 1000w 1x" alt="It's a Koala!" />
-        <img srcset="Koala-1.jpg 2x, Koala-2.jpg 1x" alt="It's a Koala!" />
-        <img srcset="Koala-1.jpg 1x, Koala-2.jpg 2x" alt="It's a Koala!" />
+        <img srcset="lib/Koala-1.jpg 1x, lib/Koala-2.jpg 2x" alt="It's a Koala!" />
+        <img srcset="lib/Koala-1.jpg 2x, lib/Koala-2.jpg 1x" alt="It's a Koala!" />
 
         <script type="text/javascript">
             JSLitmus.test('Imgsrcset.parse', function() {
