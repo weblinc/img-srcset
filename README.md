@@ -1,7 +1,11 @@
 img-srcset
 ==========
 
-Responsive images based on the 'srcset' attribute proposal. See http://dev.w3.org/html5/srcset/.
+Responsive images based on the 'srcset' attribute proposal. See http://dev.w3.org/html5/srcset/. 
+Lightweight, no nonsense, all browser supporting, fast polyfill for img ```srcset```.
+
+* **Browser support**: Tested in IE 6-9, Chrome, Firefox, Opera, Safari
+* **Size**: 1.21KB minified (700 bytes gzipped)
 
 Examples
 ---
@@ -16,4 +20,4 @@ Viewport width and pixel density query
 ```
 
 ###Dependencies
-https://github.com/weblinc/media-match is the only dependancy thus far and we hope to keep it that way. Media is used to parse the ```srcset``` attribute.
+None, simple javascript for fast execution. Version 1 relied on media-match.
